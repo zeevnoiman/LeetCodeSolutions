@@ -25,6 +25,6 @@ const twoSum = (nums, target) => {
     return result
 }
 
-const example = [2, 0, 5, 2, -2, 4, 3, 3, 1, 7]
+const example = [-1,0,1,2,-1,-4]
 
-console.log(twoSum(example, 4))
+console.log(twoSum(example, 1))
