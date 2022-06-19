@@ -24,7 +24,7 @@ var removeNthFromEnd = function(head, n) {
 
     let newHead = new ListNode(0, revertedListHead)
     let count = 1
-    while (count != n - 1) {
+    while (count !== n - 1) {
         revertedListHead = revertedListHead.next
         count++
     }
