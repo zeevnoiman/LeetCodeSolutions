@@ -9,6 +9,8 @@ const phoneDigitsMap = {
     9: ['w', 'x', 'y', 'z']
 }
 
+
+//letter combination phone number
 /**
  * @param {string} digits
  * @return {string[]}
