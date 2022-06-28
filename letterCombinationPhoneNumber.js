@@ -47,6 +47,6 @@ const generateCombinations = (original, combinations, currentIndex) => {
     return results
 }
 
-const example = ''
+const example = '2345'
 
 console.log(letterCombinations(example))
